@@ -25,8 +25,8 @@ public class MainActivity extends AppCompatActivity {
                         Toast.makeText(MainActivity.this, "Section 1", Toast.LENGTH_SHORT).show();
                     else
                         Toast.makeText(MainActivity.this, "Section 3", Toast.LENGTH_SHORT).show();
-                }else{ //Right side
-                    if(y > 0 && y < (myView.getHeight()/2)) // Section 1
+                }else{ // Right side
+                    if(y > 0 && y < (myView.getHeight()/2)) // Section 2
                         Toast.makeText(MainActivity.this, "Section 2", Toast.LENGTH_SHORT).show();
                     else
                         Toast.makeText(MainActivity.this, "Section 4", Toast.LENGTH_SHORT).show();
